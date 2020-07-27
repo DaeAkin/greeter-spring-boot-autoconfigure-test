@@ -1,0 +1,15 @@
+plugins {
+    id 'java'
+}
+
+ allprojects {
+    repositories {
+        jcenter()
+        maven { url "https://jitpack.io" }
+
+    }
+}
+
+dependencies {
+    compile 'com.github.daeakin.greeter-spring-boot-autoconfigure:greeter-library:0.0.1'
+}
