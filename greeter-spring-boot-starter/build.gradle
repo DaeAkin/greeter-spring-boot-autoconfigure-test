@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+version 'unspecified'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+    maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+    implementation 'com.github.DaeAkin.greeter-spring-boot-autoconfigure:greeter-library:v0.0.3'
+    implementation 'com.github.DaeAkin.greeter-spring-boot-autoconfigure:greeter-spring-boot-autoconfigure:v0.0.3'
+}

@@ -1,4 +1,4 @@
-package dev.donghyeon.greeter.autoconfiguration;//package dev.donghyeon.greeter.autoconfiguration;
+package dev.donghyeon.greeter.autoconfiguration;
 
 import dev.donghyeon.greeter.Greeter;
 import dev.donghyeon.greeter.GreetingConfig;
