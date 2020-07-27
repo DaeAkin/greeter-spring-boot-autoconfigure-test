@@ -15,13 +15,8 @@ repositories {
 
 dependencies {
     implementation 'com.github.DaeAkin:greeter-spring-boot-autoconfigure:v0.0.2'
-    implementation 'org.springframework.boot:spring-boot-starter'
-    implementation 'org.springframework.boot:spring-boot-configuration-processor'
 
     testImplementation('org.springframework.boot:spring-boot-starter-test') {
         exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
     }
 }
-
-bootJar{enabled=false}
-jar{enabled=true}

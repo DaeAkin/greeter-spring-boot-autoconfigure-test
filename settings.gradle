@@ -1,4 +1,5 @@
 rootProject.name = 'greeter'
 include 'greeter-spring-boot-autoconfigure'
 include 'greeter-library'
+include 'greeter-client'
 
